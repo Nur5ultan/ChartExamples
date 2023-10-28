@@ -20,6 +20,13 @@ lbl_title = tk.Label(
 )
 lbl_title.place(x=55, y=25)
 
+# Добавление кнопки и метки для графика 1
+btn_chart_1 = tk.Button(window, text="График 1", font=("Helvetica", 10, "bold"))
+btn_chart_1.place(x=40, y=115, width=90, height=30)
+
+lbl_chart_1 = tk.Label(text="График синуса matplotlib")
+lbl_chart_1.place(x=170, y=122)
+
 # Добавление кнопки закрытия программы
 btn_close = tk.Button(
     window, text="Закрыть", font=("Helvetica", 10, "bold"), command=do_close
