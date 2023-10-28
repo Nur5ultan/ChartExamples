@@ -2,8 +2,6 @@
 
 import tkinter as tk
 
-from numpy import place
-
 
 # Функция закрытия программы
 def do_close():
