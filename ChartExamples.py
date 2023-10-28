@@ -30,7 +30,7 @@ btn_chart_1 = tk.Button(
 )
 btn_chart_1.place(x=40, y=115, width=90, height=30)
 
-lbl_chart_1 = tk.Label(text="График синуса matplotlib")
+lbl_chart_1 = tk.Label(text="График синуса matplotlib", font=("Helvetica", 12))
 lbl_chart_1.place(x=170, y=122)
 
 # Добавление кнопки и метки для графика 2
@@ -39,7 +39,7 @@ btn_chart_2 = tk.Button(
 )
 btn_chart_2.place(x=40, y=165, width=90, height=30)
 
-lbl_chart_2 = tk.Label(text="Нормальное распределение")
+lbl_chart_2 = tk.Label(text="Нормальное распределение", font=("Helvetica", 12))
 lbl_chart_2.place(x=170, y=172)
 
 # Добавление кнопки закрытия программы
