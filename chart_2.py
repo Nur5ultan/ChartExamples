@@ -20,12 +20,12 @@ def plot_chart():
 
 def plot_chart2():
     # Данные для графика
-    mean = 0
-    sigma = 1
-    mean_2 = 1
-    sigma_2 = 2
-    mean_3 = -2
-    sigma_3 = 0.7
+    mean = 1.5
+    sigma = 0.7
+    mean_2 = -1
+    sigma_2 = 1.2
+    mean_3 = 3
+    sigma_3 = 0.9
     x = np.arange(-7, 7, 0.01)
     f = np.exp(-np.square((x - mean) / sigma) / 2) / (np.sqrt(2 * np.pi) * sigma)
     f_2 = np.exp(-np.square((x - mean_2) / sigma_2) / 2) / (
