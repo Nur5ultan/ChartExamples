@@ -14,6 +14,6 @@ def plot_chart():
         group="Group A"
     )
 
-    sns.histplot(data=df_normal, x="score", bins=50)
+    sns.histplot(data=df_normal, x="score", bins=50, kde=True)
 
     plt.show()
