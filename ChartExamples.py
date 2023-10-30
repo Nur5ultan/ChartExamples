@@ -64,10 +64,12 @@ lbl_chart_4 = tk.Label(text="Гистограмма Seaborn")
 lbl_chart_4.place(x=170, y=272)
 
 # Добавление кнопки и метки для графика 5
-btn_chart_5 = tk.Button(window, text="График 5", font=font_btn)
+btn_chart_5 = tk.Button(
+    window, text="График 5", font=font_btn, command=chart_3.plot_chart_2
+)
 btn_chart_5.place(x=40, y=315, width=90, height=30)
 
-lbl_chart_5 = tk.Label(text="Нормальное распределение")
+lbl_chart_5 = tk.Label(text="Сдвоенная гистограмма Seaborn")
 lbl_chart_5.place(x=170, y=322)
 
 # Добавление кнопки и метки для графика 6
